@@ -1,0 +1,1 @@
+cmd_/home/ruchika/device_drivers/first_prog/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/ruchika/device_drivers/first_prog/hello.ko /home/ruchika/device_drivers/first_prog/hello.o /home/ruchika/device_drivers/first_prog/hello.mod.o;  true
