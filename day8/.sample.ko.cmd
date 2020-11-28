@@ -1,0 +1,1 @@
+cmd_/home/ruchika/device_drivers/day8/sample.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/ruchika/device_drivers/day8/sample.ko /home/ruchika/device_drivers/day8/sample.o /home/ruchika/device_drivers/day8/sample.mod.o;  true
